@@ -1,0 +1,12 @@
+file,addr,speed
+series_addr0/01_s1_a000.txt,0,1
+series_addr0/02_s2_a000.txt,0,2
+series_addr0/03_s3_a000.txt,0,3
+series_addr0/04_s4_a000.txt,0,4
+series_addr0/05_s5_a000.txt,0,5
+series_addr0/06_s6_a000.txt,0,6
+series_addr0/07_s7_a000.txt,0,7
+series_addr0/08_s8_a000.txt,0,8
+series_addr0/09_s9_a000.txt,0,9
+series_addr0/10_s10_a000.txt,0,10
+series_addr0/11_s0_a000.txt,0,0
