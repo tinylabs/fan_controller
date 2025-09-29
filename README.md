@@ -21,3 +21,8 @@ urh_cli -d USRP -f 433.9e6 -b 200e3 -s 200e3 -mo FSK --gain 20 -sps 100 -pm -310
 TRANSMIT
 --------
 ./fan433.py genwave --speed 0 --addr 7 | xargs urh_cli -d USRP -f 433.9e6 -b 200e3 -s 200e3 -mo FSK --gain 70 -sps 100 -tx -v -pm -31000 31000 -cf 0 -p 0 -m
+
+URH ENCODER/DECODER
+-----------
+/path/fan433.py decode-urh --bs    
+/path/fan433.py encode-urh --bs
